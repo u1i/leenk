@@ -17,7 +17,7 @@ While developed for the OpenAI x GovTech Hackathon 2024, Leenk is part of Electr
 Our hackathon prototype demonstrates how Leenk mediates communication while considering health data, appointments, and emotional states:
 
 ```
-[System Context]
+[System Context via API Call]
 - Blood pressure reading (10 AM): 150/95 (Elevated)
 - Calendar: SGH Cardiology appointment tomorrow, 2 PM, Level 3
 - Recent logs: Missed medication 2x this week
@@ -68,6 +68,7 @@ Patient: "Okay lah... you help me check which one ah?" (in Hokkien)
 - Real-time health data integration
 - Multilingual support with dialect understanding
 - Basic caregiver stress monitoring
+- [Sumitted idea](submitted-idea.md)
 
 ### Phase 2: Ecosystem Building (From January 2025)
 - Building collaborative network of:
@@ -103,7 +104,5 @@ Patient: "Okay lah... you help me check which one ah?" (in Hokkien)
 ---
 
 Built with ❤️ by Electric Minds  
-Domain: leenk.info  
-Contact: [contact details]
 
 *Note: This project is part of Electric Minds' broader initiative to preserve cultural wisdom and enhance elderly care through responsible AI innovation.*
