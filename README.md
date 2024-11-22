@@ -47,6 +47,32 @@ Patient: "Okay lah... you help me check which one ah?" (in Hokkien)
 [Leenk displays medication schedule and images]
 ```
 
+### Code
+
+#### Mock API for sensor and context data
+
+[FastAPI Implementation](leenk-api/README.md )
+
+```json
+{
+    "vital_signs": {
+        "blood_pressure": {
+            "reading": "155/90",
+            "time": "10:00 AM",
+            "status": "High"
+        }
+    },
+    "calendar": {
+        "event": "Cardiology appointment",
+        "datetime": "02:30 PM",
+        "location": "SGH Cardiology, Level 3"
+    },
+    "medical_logs": {
+        "medication_adherence": "Missed medication 2x this week"
+    }
+}
+```
+
 ### Technologies
 - OpenAI Realtime API (o1-preview model)
 - TypeScript
