@@ -14,7 +14,10 @@ While developed for the OpenAI x GovTech Hackathon 2024, Leenk is part of Electr
 ![](leenk.jpg)
 
 ## Hackathon Demo: AI-Enhanced Care Dialogue
-Our hackathon prototype demonstrates how Leenk mediates communication while considering health data, appointments, and emotional states:
+
+Our hackathon prototype demonstrates how Leenk mediates communication while considering health data, appointments, and emotional states.
+
+![](preview.jpg)
 
 ```
 [System Context via API Call]
